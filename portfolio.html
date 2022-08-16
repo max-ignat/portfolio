@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!--header  -->
+    <header class="header">
+      <div class="container main-nav">
+        <nav class="navigation">
+          <a href="./index.html" class="logo">
+            <span class="web">Web</span><span class="studio">Studio</span>
+          </a>
+          <ul class="list navigation__list">
+            <li class="navigation__item"><a href="./index.html" class="navigation__link">Студия</a></li>
+            <li class="navigation__item">
+              <a href="./portfolio.html" class="navigation__link current">Портфолио</a>
+            </li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="contact__list">
+          <a class="contact__link" href="mailto:info@devstudio.com">
+            <svg class="contact__envelope">
+              <use href="./images/sprite-svg.svg#icon-envelope"></use></svg>info@devstudio.com
+          </a>
+
+          <a class="contact__link" href="tel:+380961111111">
+            <svg class="contact__mobile">
+              <use href="./images/sprite-svg.svg#icon-mobile"></use></svg>+38 096 111 11 11
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Портфолио</h1>
+          <!-- скрыть позже -->
+          <ul class="list filter">
+            <li class="filter__item"><button type="button" class="filter__button">Все</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Веб-сайты</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Приложения</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Дизайн</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="list grid">
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img
+                    src="./images/portfolio/project1.jpg"
+                    alt="laptop"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="grid__card-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
+                    или частном лице.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="grid__card-subitem">Технокряк</h2>
+                  <p class="grid__card-name">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img
+                    src="./images/portfolio/project2.jpg"
+                    alt="poster"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="grid__card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem porro
+                    consequuntur nostrum minus. Incidunt.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="grid__card-subtitle">Постер New Orlean vs Golden Star</h2>
+                  <p class="grid__card-name">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img
+                    src="./images/portfolio/project3.jpg"
+                    alt="restaurant-logo"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="grid__card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem porro
+                    consequuntur nostrum minus. Incidunt.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="gird__card-subtitle">Ресторан Seafood</h2>
+                  <p class="grid__card-name">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img
+                    src="./images/portfolio/project4.jpg"
+                    alt="headphones"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="grid__card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem porro
+                    consequuntur nostrum minus. Incidunt.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="gird__card-subtitle">Проект Prime</h2>
+                  <p class="grid__card-name">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img src="./images/portfolio/project5.jpg" alt="boxes" width="370" height="294" />
+                  <p class="grid__card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem porro
+                    consequuntur nostrum minus. Incidunt.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="gird__card-subtitle">Проект Boxes</h2>
+                  <p class="grid__card-name">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img
+                    src="./images/portfolio/project6.jpg"
+                    alt="monitor"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="grid__card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem porro
+                    consequuntur nostrum minus. Incidunt.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="gird__card-subtitle">Inspiration has no Borders</h2>
+                  <p class="grid__card-name">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img src="./images/portfolio/project7.jpg" alt="book" width="370" height="294" />
+                  <p class="grid__card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem porro
+                    consequuntur nostrum minus. Incidunt.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="gird__card-subtitle">Издание Limited Edition</h2>
+                  <p class="grid__card-name">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img src="./images/portfolio/project8.jpg" alt="label" width="370" height="294" />
+                  <p class="grid__card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem porro
+                    consequuntur nostrum minus. Incidunt.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="gird__card-subtitle">Проект LAB</h2>
+                  <p class="grid__card-name">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="grid__item">
+              <a class="grid__card-link link" href="#">
+                <div class="grid__card-wrap">
+                  <img
+                    src="./images/portfolio/project9.jpg"
+                    alt="typing"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="grid__card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem porro
+                    consequuntur nostrum minus. Incidunt.
+                  </p>
+                </div>
+
+                <div class="grid__card-subitem">
+                  <h2 class="gird__card-subtitle">Growing Business</h2>
+                  <p class="grid__card-name">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer  -->
+    <footer class="footer-main">
+      <div class="container footer">
+    
+        <div class="footer-left">
+          <a href="./index.html" class="logo-link"> <span class="web">Web</span><span class="studio-bottom">Studio</span>
+          </a>
+    
+          <address>
+            <ul class="list">
+              <li class="address-item"><a href="https://goo.gl/maps/nnkkmyrKH8PEDYPt6" target="_blank"
+                  rel="nofollow noopener" class="contact-link route">г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li class="address-item"><a href="mailto:info@devstudio.com"
+                  class="contact-link-bottom">info@devstudio.com</a>
+              </li>
+              <li class="address-item"><a href="tel:+380961111111" class="contact-link-bottom">+38096111111</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-center">
+          <p class="invite-title">присоеденяйтесь </p>
+          <ul class="social__list-footer">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use href="./images/sprite-svg.svg#icon-instagram-footer"></use>
+                </svg> </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use href="./images/sprite-svg.svg#icon-twitter-footer"></use>
+                </svg> </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use href="./images/sprite-svg.svg#icon-facebook-footer"></use>
+                </svg> </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg class="social__icon">
+                  <use href="./images/sprite-svg.svg#icon-linkedin-footer"></use>
+                </svg> </a>
+            </li>
+          </ul>
+    
+        </div>
+        <div class="footer-right">
+          <p class="subscribe-title">подпишитесь на рассылку</p>
+          <form class="subscribe-form">
+            <input type="email" name="email" class="subscribe-input" placeholder="E-mail" required>
+            <button type="submit" class="subscribe-button">Подписаться
+              <svg class="subscribe-icon">
+                <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+    
+        </div>
+    
+    
+    
+    
+    
+    
+      </div>
+    
+    </footer>
+  </body>
+</html>
