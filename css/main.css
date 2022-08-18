@@ -506,6 +506,7 @@ button {
 .hero {
   background-color: var(--dark-bcg);
   text-align: center;
+  padding: 118px 0;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/adaptive/layout/mobile-layout-x1.jpg");
   background-repeat: no-repeat;
   background-position: center;
