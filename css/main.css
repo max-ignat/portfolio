@@ -502,23 +502,15 @@ button {
   color: var(--primary-bcg);
   text-transform: uppercase;
 }
-@media screen and (min-width: 1200px) {
-  .hero__title {
-    font-size: 44px;
-    line-height: 1.36;
-  }
-}
 
 .hero {
   background-color: var(--dark-bcg);
   text-align: center;
-  padding: 118px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/adaptive/layout/mobile-layout-x1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1600px;
-  height: 600px;
   margin: 0 auto;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -539,6 +531,8 @@ button {
 @media screen and (min-width: 1200px) {
   .hero {
     padding: 200px 0;
+    font-size: 44px;
+    line-height: 1.36;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/adaptive/layout/layout-x1.jpg");
   }
 }
@@ -555,7 +549,6 @@ button {
   display: inline-block;
   padding: 10px 32px;
   border: 0px;
-  min-width: 200px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;

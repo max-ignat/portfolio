@@ -10,10 +10,8 @@
     line-height: 1.62;
     
     letter-spacing: 0.06em;
-    @media screen and (min-width: 1200px) {
-    font-size: 44px;
-    line-height: 1.36;    
-    }
+
+   
  
 
     color: var(--primary-bcg);
@@ -23,7 +21,7 @@
 .hero {
     background-color: var(--dark-bcg);
     text-align: center;
-    padding: 118px;
+    
     
     background-image:
         linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -32,7 +30,7 @@
     background-position: center;
     background-size: cover;
     max-width: 1600px;
-    height: 600px;
+    // height: 600px;
     margin: 0 auto;
 
        
@@ -58,6 +56,9 @@
 
     @media screen and (min-width: 1200px) {
     padding: 200px 0;
+    font-size: 44px;
+    line-height: 1.36;
+
     background-image:
     linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url("../images/adaptive/layout/layout-x1.jpg");
@@ -79,7 +80,7 @@
     display: inline-block;
     padding: 10px 32px;
     border: 0px;
-    min-width: 200px;
+    // min-width: 200px;
 
     font-weight: 700;
     font-size: 16px;
