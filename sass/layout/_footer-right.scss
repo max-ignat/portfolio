@@ -24,11 +24,11 @@
     color: #FFFFFF;
     margin-bottom: 20px;
 
-    text-align: center;
+    // text-align: center;
 
-    // @media screen and (min-width:1200px) {
-    // text-align: left;
-    // }
+    @media screen and (max-width:1199px) {
+    text-align: center;
+    }
 }
 
 .subscribe-button {
@@ -53,10 +53,10 @@
         margin: 0 auto;
     }
 
-    &:hover,
-    &:focus {
-        border: 1px solid var(--hover-color);
-    }
+    // &:hover,
+    // &:focus {
+    //     border: 1px solid var(--hover-color);
+    // }
 }
 
 .subscribe-input {

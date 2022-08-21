@@ -124,8 +124,8 @@
     position: fixed;
     background-color: #fff;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     z-index: 5;
     padding-top: 48px;
     padding-bottom: 48px;
@@ -155,6 +155,7 @@
     &:not(:last-child) {
         margin-bottom: 32px;
     }
+    font-weight: 500;
     font-size: 40px;
     line-height: 1.17;
     letter-spacing: 0.02em;
@@ -165,7 +166,8 @@
 }
 .mob-menu__phone{
     color: var(--accent-color);
-    font-size: 34px;
+    font-weight: 500;
+    font-size: 26px;
     letter-spacing: 0.02;
     line-height: 1.17;
     margin-bottom: 32px;
@@ -185,19 +187,18 @@
 }
 .mobile-social-list{
     display: flex;
+    flex-wrap: wrap;
 }
 .mobile-social-list__item {
     display: flex;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 11px;
     line-height: 1.22;
     letter-spacing: 0.02;
     color: var(--accent-color);
     margin-right: 10px;
     
 }
-
-
-/* contact-list */
 .dash-between {
     margin-left: 10px;
     margin-right: 10px;
@@ -205,6 +206,9 @@
     height: 22px;
     background-color: rgba(33, 33, 33, 0.2);
 }
+
+/* contact-list */
+
 .contact__list .contact__link+.contact__link {
     margin-left: 50px;
 

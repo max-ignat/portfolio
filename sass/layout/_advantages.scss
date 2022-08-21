@@ -5,20 +5,23 @@
 @media screen and (min-width:768px) {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -30px;
 }
 
 
 }
 
 .advantages__item {
-    
+    margin-bottom: 30px;
     @media screen and (min-width:768px) {
         width: calc((100% - 60px) / 2);
         margin-right: 30px;
+        
     }
      @media screen and (min-width:1200px) {
         width: calc((100% - 90px) / 4);
         margin-right: 30px;
+        margin-bottom: 0px;
      }
 }
 
@@ -66,13 +69,17 @@
     line-height: 1.71;
     text-transform: uppercase;
     color: var(--primary-head-text);
+    text-align: center;
 
+    @media screen and (min-width:768px) {
+        text-align: left;
+    }
 }
 
 .advantages__description {
     margin-top: 10px;
 
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 
     font-weight: 400;
     font-size: 14px;
