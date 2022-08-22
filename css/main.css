@@ -541,7 +541,7 @@ button {
 .mobile-social-list__item {
   display: flex;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 17px;
   line-height: 1.22;
   letter-spacing: 0.02;
   color: var(--accent-color);
@@ -783,6 +783,10 @@ button {
   }
 }
 
+.advantages__item:last-child {
+  margin-bottom: 0px;
+}
+
 @media screen and (min-width: 1200px) {
   .advantages__item:nth-child(4n) {
     margin-right: 0px;
@@ -1017,6 +1021,7 @@ button {
 .clients__list {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -15px;
   margin-bottom: -30px;
 }
 @media screen and (min-width: 768px) {
@@ -1029,6 +1034,7 @@ button {
 
 .clients__item {
   width: calc((100% - 60px) / 2);
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
@@ -1165,11 +1171,11 @@ button {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
 }
 @media screen and (max-width: 1199px) {
   .invite-title {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -1219,7 +1225,6 @@ button {
 }
 
 .footer-center {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1230,6 +1235,11 @@ button {
     margin-right: 93px;
     margin-bottom: 0px;
     width: auto;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .footer-center {
+    display: flex;
   }
 }
 

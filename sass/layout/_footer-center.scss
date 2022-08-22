@@ -6,10 +6,10 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     
     @media screen and (max-width: 1199px) {
-    text-align: left;
+    text-align: center;
     }
 }
 
@@ -63,7 +63,7 @@
 }
 
 .footer-center {
-    display: flex;
+    // display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -75,8 +75,8 @@
         width: auto;
     }
 
-    // @media screen and (min-width: 1200px)  {
-    //     margin-left: 70px;
-    // }
+    @media screen and (max-width: 1199px)  {
+        display: flex;
+    }
     
 }
