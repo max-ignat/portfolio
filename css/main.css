@@ -572,8 +572,6 @@ button {
 }
 
 .contact__list {
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-left: auto;
 }
 @media screen and (max-width: 767px) {
@@ -1107,6 +1105,8 @@ button {
 }
 
 .subscribe-button {
+  margin: 0 auto;
+  padding: 10px 32px;
   display: flex;
   background-color: var(--accent-color);
   color: #FFFFFF;
@@ -1169,7 +1169,7 @@ button {
   margin-bottom: 20px;
   text-align: center;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .invite-title {
     text-align: left;
   }
