@@ -1163,22 +1163,6 @@ button {
   fill: currentColor;
 }
 
-.invite-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-  text-align: left;
-}
-@media screen and (max-width: 1199px) {
-  .invite-title {
-    text-align: center;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .footer {
     display: flex;
@@ -1240,6 +1224,22 @@ button {
 @media screen and (max-width: 1199px) {
   .footer-center {
     display: flex;
+  }
+}
+
+.invite-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  text-align: left;
+}
+@media screen and (max-width: 1199px) {
+  .invite-title {
+    text-align: center;
   }
 }
 
